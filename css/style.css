@@ -26,6 +26,7 @@
 }
 
 .search {
+    display: flex;
     width: 52%;
     height: 50px;
     left: 325px;
@@ -36,19 +37,20 @@
     border-radius: 15px;
     z-index: 10;
     margin-left: -15%;
-    padding-left: 46px;
+    /*padding-left: 46px;*/
 }
 
 .search input {
-    width: 95%;
+    width: 87%;
     height: 46px;
     border: none;
+    background-color: transparent;
 }
 
-.inputValues {
-    float: right;
-    margin-right: 30px;
-}
+/*.inputValues {*/
+/*    float: right;*/
+/*    margin-right: 30px;*/
+/*}*/
 
 .search .search-btn {
      width: 8%;
@@ -59,7 +61,6 @@
      background-repeat: no-repeat;
      background-size: 17px;
      background-position: 14px center;
-     margin-left: -8%;
      background-color: transparent;
 }
 
