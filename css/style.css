@@ -37,7 +37,6 @@
     border-radius: 15px;
     z-index: 10;
     margin-left: -15%;
-    /*padding-left: 46px;*/
 }
 
 .search input {
@@ -46,11 +45,6 @@
     border: none;
     background-color: transparent;
 }
-
-/*.inputValues {*/
-/*    float: right;*/
-/*    margin-right: 30px;*/
-/*}*/
 
 .search .search-btn {
      width: 8%;
@@ -73,7 +67,7 @@
 .left-border-logo {
     width: 340px;
     height: 567px;
-    background-image: url("../img/left-border.svg");
+    background-image: url("../img/left-border.jpg");
     margin-top: 500px;
     margin-left: -32px;
 }
