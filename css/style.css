@@ -432,5 +432,36 @@
 }
 
 .profile-footer {
-    height: 160px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer-flex {
+    width: 100px;
+    height: 100px;
+    padding-top: 6px;
+    margin-left: -68px;
+}
+
+.footer-square-profile {
+    width: 219px;
+    height: 50px;
+    border: 2px solid rgba(18, 49, 74, 0.9);
+    box-sizing: border-box;
+}
+
+.footer-yellow-profile {
+    font-family: Kaushan Script;
+    width: 132px;
+    height: 86px;
+    display: block;
+    box-sizing: border-box;
+    background: #FFCB00;
+    margin-top: -68px;
+    margin-left: 42px;
+    background-size: 100%;
+    text-align: center;
+    padding: 20px;
 }
