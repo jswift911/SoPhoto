@@ -1,5 +1,7 @@
 /*@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');*/
 
+/*Главная*/
+
 @font-face {
     font-family: 'Kaushan Script';
     src: url('../fonts/Kaushan.ttf');
@@ -50,15 +52,15 @@
 }
 
 .search .search-btn {
-     width: 8%;
-     height: 46px;
-     border: none;
-     border-radius: 15px 0 0 15px;
-     background-image: url(../img/search.svg);
-     background-repeat: no-repeat;
-     background-size: 17px;
-     background-position: 14px center;
-     background-color: transparent;
+    width: 8%;
+    height: 46px;
+    border: none;
+    border-radius: 15px 0 0 15px;
+    background-image: url(../img/search.svg);
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: 14px center;
+    background-color: transparent;
 }
 
 .search .search-btn:hover {
@@ -374,7 +376,7 @@
     margin-bottom: 16%;
 }
 
-.right-photo-square{
+.right-photo-square {
     width: 235px;
     height: 363px;
     border: 2px solid #12314A;
@@ -465,3 +467,126 @@
     text-align: center;
     padding: 20px;
 }
+
+/*Настройки*/
+
+.settings-container {
+    width: 83%;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.avatar-change {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar-change a {
+    margin-top: 4%;
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+    color: black;
+}
+
+.avatar-change a:hover {
+    color: red;
+    transition: 0.3s ease;
+}
+
+.settings-inputs {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.settings-inputs p {
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.settings-inputs input {
+    width: 45%;
+    height: 28px;
+    font-family: Open Sans;
+    font-size: 12px;
+    line-height: 16px;
+    color: #8D8989;
+    border: 1px solid #8D8989;
+    box-sizing: border-box;
+    margin-bottom: 4%;
+    padding-left: 12px;
+}
+
+.settings-inputs .settings-news p {
+    width: 274px;
+    height: 13px;
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.settings-news {
+    width: 45%;
+    margin-top: 2%;
+    margin-bottom: 8%;
+}
+
+.settings-inputs .save {
+    width: 45%;
+    height: 50px;
+    background: #FFCB00;
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    font-weight: 600;
+    padding: 0;
+}
+
+.settings-inputs .save:hover {
+    color: #FFCB00;
+    background-color: #393434;
+    transition: 0.3s ease;
+}
+
+/*Стилизация checkbox*/
+
+input[type=checkbox] {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+input[type=checkbox] + label:after {
+    content: "\2713"; /*галочка*/
+    color: transparent;
+    display: inline-block;
+    border: 1px solid #5A5858;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 22px;
+    margin: -5px 5px 0 0;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    vertical-align: middle;
+    transition: color ease .3s;
+}
+
+input[type=checkbox]:checked + label:after {
+    color: #000;
+}
+
+.news-from-email {
+    display: flex;
+    justify-content: space-between;
+}
+
