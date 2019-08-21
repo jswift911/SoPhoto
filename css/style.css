@@ -588,5 +588,8 @@ input[type=checkbox]:checked + label:after {
 .news-from-email {
     display: flex;
     justify-content: space-between;
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 19px;
 }
 
