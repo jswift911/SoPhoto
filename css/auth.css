@@ -1,0 +1,151 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Kaushan Script";
+  src: url("../fonts/Kaushan.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans.ttf");
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper {
+  width: 540px;
+  height: 674px;
+  background: #ffcb00;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper::after {
+  position: absolute;
+  left: -25%;
+  top: 10%;
+  content: "";
+  display: block;
+  width: 803px;
+  height: 466px;
+  border: 3px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper-header {
+  width: 131px;
+  height: 51px;
+  font-family: "Kaushan Script";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 52px;
+  margin-top: 108px;
+}
+
+.btn {
+  width: 350px;
+  height: 50px;
+  background: #12314a;
+  border: 2px solid #12314a;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.btn:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.btn-auth {
+  margin-top: 79px;
+}
+
+.btn-signin {
+  margin-top: 21px;
+}
+
+.btn-google {
+  margin-top: 38px;
+  position: relative;
+}
+
+.btn-google::before {
+  content: "или";
+  position: absolute;
+  top: -28px;
+  width: 100px;
+  height: 20px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #000000;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  align-items: center;
+}
+
+.btn-google::after {
+  position: absolute;
+  left: 32px;
+  content: "";
+  display: block;
+  height: 25px;
+  width: 25px;
+  background-image: url(../img/google.svg);
+}
+
+.btn-google:hover::after {
+  opacity: 0.5;
+}
+/*# sourceMappingURL=auth.css.map */
