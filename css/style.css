@@ -658,16 +658,17 @@ input[type=checkbox]:checked + label:after {
     background: url(../img/daytasks-background.png) no-repeat;
     position: absolute;
     margin-left: 52%;
-    margin-top: 5%;
+    margin-top: 10%;
     z-index: -1;
 }
 
-.tasks-flex {
+.tasks-container-flex {
     width: 84%;
     display: flex;
     margin-left: 10%;
     margin-top: 2%;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .task-square {
