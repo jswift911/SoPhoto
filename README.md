@@ -1,6 +1,6 @@
 # SoPhoto
 <p align="center">
-  <img width="460" height="300" src="https://sophoto.ru/wp-content/uploads/2019/08/Screens.jpg">
+  <img src="https://lee-web.online/public/assets/promo_github/sophoto.jpg" width="460" height="300">
 </p>
 <p align="center">
 Фотохостинг
